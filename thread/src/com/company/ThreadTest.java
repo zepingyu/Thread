@@ -1,5 +1,6 @@
 package com.company;
 
+//第一种 Thread
 /*public class ThreadTest {
     public static void main(String[] args) {
         for (int i = 0; i < 25; i++) {
@@ -20,6 +21,7 @@ package com.company;
     }
 }*/
 /*
+//第二种 Runnable
 public class ThreadTest {
 
     static class MyRunnable implements Runnable {
@@ -64,6 +66,7 @@ public class ThreadTest {
 }
 */
 
+//第三种 Callable,FutureTask
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
